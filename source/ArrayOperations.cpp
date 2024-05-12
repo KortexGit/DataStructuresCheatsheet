@@ -1,4 +1,4 @@
-#include "arrays.h"
+#include "ArrayOperations.h"
 #include <iostream>
 #include <algorithm> // for sorting method
 
@@ -6,7 +6,7 @@ ArrayOperations::ArrayOperations() : size(0) {} // Constructor
 
 // Function to create an array - Complexity: O(n)
 void ArrayOperations::createArray(int elements[], int len) {
-    size = std::min(len, maxSize);
+    size = std::min(len, maxSize); 
     for (int i = 0; i < size; i++) {
         array[i] = elements[i];
     }

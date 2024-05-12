@@ -27,26 +27,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\arrays.cpp" />
-    <ClCompile Include="source\graph.cpp" />
-    <ClCompile Include="source\hash_table.cpp" />
-    <ClCompile Include="source\heap.cpp" />
-    <ClCompile Include="source\linked_list.cpp" />
+    <ClCompile Include="source\ArrayOperations.cpp" />
+    <ClCompile Include="source\GraphOperations.cpp" />
+    <ClCompile Include="source\HashTableOperations.cpp" />
+    <ClCompile Include="source\HeapOperations.cpp" />
+    <ClCompile Include="source\LinkedListOperations.cpp" />
     <ClCompile Include="source\main.cpp" />
-    <ClCompile Include="source\queue.cpp" />
-    <ClCompile Include="source\stack.cpp" />
-    <ClCompile Include="source\tree.cpp" />
+    <ClCompile Include="source\QueueOperations.cpp" />
+    <ClCompile Include="source\StackOperations.cpp" />
+    <ClCompile Include="source\TreeOperations.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="arrays.h" />
-    <ClInclude Include="graph.h" />
-    <ClInclude Include="hash_table.h" />
-    <ClInclude Include="heap.h" />
-    <ClInclude Include="linked_list.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="queue.h" />
-    <ClInclude Include="stack.h" />
-    <ClInclude Include="tree.h" />
+    <ClInclude Include="headers\ArrayOperations.h" />
+    <ClInclude Include="headers\GraphOperations.h" />
+    <ClInclude Include="headers\HashTableOperations.h" />
+    <ClInclude Include="headers\HeapOperations.h" />
+    <ClInclude Include="headers\LinkedListOperations.h" />
+    <ClInclude Include="headers\main.h" />
+    <ClInclude Include="headers\QueueOperations.h" />
+    <ClInclude Include="headers\StackOperations.h" />
+    <ClInclude Include="headers\TreeOperations.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -181,7 +181,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>\\Mac\Home\Desktop\Projects\Data Structures Cheatsheet\Data Structures Cheatsheet\headers</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>\\Mac\Home\Desktop\Projects\Data Structures Cheatsheet\Data Structures Cheatsheet\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

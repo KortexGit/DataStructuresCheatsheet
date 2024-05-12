@@ -3,14 +3,14 @@
 
 #include <iostream>
 #include "main.h"
-#include "arrays.h"
-#include "linked_list.h"
-#include "stack.h"
-#include "queue.h"
-#include "hash_table.h"
-#include "tree.h"
-#include "heap.h"
-#include "graph.h"
+#include "ArrayOperations.h"
+#include "LinkedListOperations.h"
+#include "StackOperations.h"
+#include "QueueOperations.h"
+#include "HashTableOperations.h"
+#include "TreeOperations.h"
+#include "HeapOperations.h"
+#include "GraphOperations.h"
 
 void displayMainMenu() {
     // Class objects

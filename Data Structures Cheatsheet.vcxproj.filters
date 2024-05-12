@@ -15,60 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\arrays.cpp">
+    <ClCompile Include="source\ArrayOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\graph.cpp">
+    <ClCompile Include="source\GraphOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\hash_table.cpp">
+    <ClCompile Include="source\HashTableOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\heap.cpp">
+    <ClCompile Include="source\HeapOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\linked_list.cpp">
+    <ClCompile Include="source\LinkedListOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\queue.cpp">
+    <ClCompile Include="source\QueueOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\stack.cpp">
+    <ClCompile Include="source\StackOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\tree.cpp">
+    <ClCompile Include="source\TreeOperations.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="arrays.h">
+    <ClInclude Include="ArrayOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="graph.h">
+    <ClInclude Include="GraphOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hash_table.h">
+    <ClInclude Include="HashTableOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="heap.h">
+    <ClInclude Include="HeapOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="linked_list.h">
+    <ClInclude Include="LinkedListOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="queue.h">
+    <ClInclude Include="QueueOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack.h">
+    <ClInclude Include="StackOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tree.h">
+    <ClInclude Include="TreeOperations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
