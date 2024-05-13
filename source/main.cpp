@@ -15,13 +15,20 @@
 void displayMainMenu() {
     // Class objects
     ArrayOperations arrayOps;
+    LinkedListOperations linkedListOps;
+    //StackOperations stackOps;
+    //QueueOperations queueOps;
+    //HashTableOperations  hashTableOps;
+    //TreeOperations treeOps;
+    //HeapOperations heapOps;
+    //GraphOperations graphOps;//
     
     // Variables
     int choice;
 
     std::cout << "----- Main Menu -----" << std::endl;
-    std::cout << "1. Arrays" << std::endl;
-    std::cout << "2. Linked Lists" << std::endl;
+    std::cout << "1. Array" << std::endl;
+    std::cout << "2. Linked List" << std::endl;
     std::cout << "3. Stack" << std::endl;
     std::cout << "4. Queue" << std::endl;
     std::cout << "5. Hash Table" << std::endl;
@@ -37,7 +44,7 @@ void displayMainMenu() {
         arrayOps.displayArrayMenu();
         break;
     case 2:
-        std::cout << "In Development..." << std::endl;
+        linkedListOps.displayLinkedListMenu();
         break;
     case 3:
         std::cout << "In Development..." << std::endl;

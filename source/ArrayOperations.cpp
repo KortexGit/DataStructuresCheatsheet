@@ -2,6 +2,10 @@
 #include <iostream>
 #include <algorithm> // for sorting method
 
+// TODO: Error handling for incorrect user inputs
+// TODO: Improve output messages and guide for what is happening behind the code
+// TODO: Add comments to explain functionality and algorithms used
+
 ArrayOperations::ArrayOperations() : size(0) {} // Constructor
 
 // Function to create an array - Complexity: O(n)
@@ -111,7 +115,7 @@ void ArrayOperations::printArray(bool includeStatement) const {
 }
 
 // Function to display menu and call array operations
-void ArrayOperations::displayArrayMenu() { //ArrayOperations& arrayOps
+void ArrayOperations::displayArrayMenu() {
     int choice;
     int index, newValue;
     std::cout << "----- Array Menu -----" << std::endl;
