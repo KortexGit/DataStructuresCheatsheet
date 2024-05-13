@@ -2,6 +2,11 @@
 #include <iostream>
 #include <algorithm> // for sorting method
 
+// TODO: Error handling for incorrect user inputs
+// TODO: Improve output messages and guide for what is happening behind the code
+// TODO: Add comments to explain functionality and algorithms used
+// TODO: Refactor print code into traversal and print functions
+
 ArrayOperations::ArrayOperations() : size(0) {} // Constructor
 
 // Function to create an array - Complexity: O(n)
