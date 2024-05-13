@@ -6,6 +6,7 @@
 // TODO: Improve output messages and guide for what is happening behind the code
 // TODO: Add comments to explain functionality and algorithms used
 // TODO: Add additional Linked Lists (Doubly linked lists, circular, double linked circular)
+// TODO: Refactor print code into traversal and print functions
 
 Node::Node(int value) : data(value), next(nullptr) {}
 
