@@ -176,6 +176,7 @@ void LinkedListOperations::printLinkedList() const {
 void LinkedListOperations::displayLinkedListMenu() {
     int choice;
     int index, newValue;
+
     std::cout << "----- Linked List Menu -----" << std::endl;
     std::cout << "1. Create Linked List" << std::endl;
     std::cout << "2. Update Value at Index" << std::endl;
