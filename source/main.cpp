@@ -17,7 +17,7 @@ void displayMainMenu() {
     ArrayOperations arrayOps;
     LinkedListOperations linkedListOps;
     StackOperations stackOps;
-    //QueueOperations queueOps;
+    QueueOperations queueOps;
     //HashTableOperations  hashTableOps;
     //TreeOperations treeOps;
     //HeapOperations heapOps;
@@ -50,7 +50,7 @@ void displayMainMenu() {
         stackOps.displayStackMenu();
         break;
     case 4:
-        std::cout << "In Development..." << std::endl;
+        queueOps.displayQueueMenu();
         break;
     case 5:
         std::cout << "In Development..." << std::endl;
