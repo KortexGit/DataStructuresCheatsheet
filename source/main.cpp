@@ -16,7 +16,7 @@ void displayMainMenu() {
     // Class objects
     ArrayOperations arrayOps;
     LinkedListOperations linkedListOps;
-    //StackOperations stackOps;
+    StackOperations stackOps;
     //QueueOperations queueOps;
     //HashTableOperations  hashTableOps;
     //TreeOperations treeOps;
@@ -47,7 +47,7 @@ void displayMainMenu() {
         linkedListOps.displayLinkedListMenu();
         break;
     case 3:
-        std::cout << "In Development..." << std::endl;
+        stackOps.displayStackMenu();
         break;
     case 4:
         std::cout << "In Development..." << std::endl;
